@@ -29,7 +29,6 @@ public class StudentService {
     public String createResource(StudentModel studentModel){
 
         //in this we check if the student is available or not , if not  we return else we create////////////
-        //its in try catch because it works best for me, could have done it some other way as well ,,,,anyways//
         if (!studentRepository.existsByEmail(studentModel.getEmail())){
             Student student = new Student();
             BeanUtils.copyProperties(studentModel, student);
