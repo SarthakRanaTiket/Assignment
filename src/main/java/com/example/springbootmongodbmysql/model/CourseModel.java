@@ -37,7 +37,7 @@ public class CourseModel {
     }
 
 
-    //to String again lmao
+    //to String 
     @Override
     public String toString() {
         return "CourseModel{" +
