@@ -14,3 +14,12 @@
 - mySQL v8.0.29
 - SpringBoot v2.7.0
 - java v8 
+
+## Rest APIs
+
+| Method | Url | Description | Valid Request Body |
+| ------ | --- | ----------- | ------------------ |
+| POST   | /createresources | Creates a user | JSON | 
+| GET   | /readresources | Gets all users and their data |  | 
+| DELETE   | /deleteresource | Delete a user |  | 
+| PUT   | /updateresource | Creates a user | JSON | 
