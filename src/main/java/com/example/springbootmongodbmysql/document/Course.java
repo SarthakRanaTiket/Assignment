@@ -54,7 +54,7 @@ public class Course {
         this.email = email;
     }
 
-    //ToString method cos yes
+    //ToString method
 
     @Override
     public String toString() {
