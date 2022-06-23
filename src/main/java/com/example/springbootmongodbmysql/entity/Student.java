@@ -24,7 +24,7 @@ public class Student {
         return id;
     }
 
-    //getters and setters (Forgot to use lombok due to some unfortunate circumstances lmao :3 )
+    //getters and setters 
     public void setId(int id) {
         this.id = id;
     }
@@ -54,7 +54,7 @@ public class Student {
     }
 
 
-    //and a toString method cos why not
+    //and a toString method 
     @Override
     public String toString() {
         return "Student{" +
